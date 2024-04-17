@@ -24,7 +24,7 @@
 		* Compositional 
 		* Structural
 		* Graphs   
-	* _Exercise: Chemical space revisited_  
+	* _Exercise: Chemical space II_  
 
 5. **Classical Learning**
 	* _k_-nearest neighbours
@@ -42,16 +42,17 @@
 	* Data preparation
 	* Model choice
 	* Training and testing 
-	* _Exercise: Crystal hardness revisited_ 
+	* _Exercise: Crystal hardness II_ 
 
-8. **Automated Discovery** 
-	* Large language models 
-	* Closed-loop materials discovery  
+8. **Accelerating Discovery** 
+	* Automated experiments 
+	* Bayesian optimisation
+	* Reinforcement learning  
 	* _Exercise: Closed-loop optimisation_ 
 
-9. **Large-Language Models** 
+9. **Generative Artificial Intelligence** 
 	* Large language models 
-	* Closed-loop materials discovery  
+	* From latent space to diffusion
 	* _Exercise: Research challenge_ 
 	
 10. **Recent Advances in AI** 
