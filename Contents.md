@@ -2,33 +2,29 @@
 
 1. **Introduction**    
     * Overview 
-    * Expectations 
-	* Assessments
+    * Expectations and assessments
 	* _Exercise: Getting started_ 
 
-2. **Materials Modelling**
-	* Analytical methods
-	* Numerical methods
-	* Statistical methods
-	* Automation and robotics
-	* _Exercise: Crystal electrostatics_ 
-
-3. **Machine Learning Basics**  
+2. **Machine Learning Basics**  
 	* Terminology
-	* Evaluation metrics 
 	* Learning by example
 		* Supervised
 		* Unsupervised
 		* Reinforcement
 	* _Exercise: Crystal hardness_ 
 
-4. **Materials Data and Representations**
+3. **Materials Data**
+	* Data sources and formats
+	* API queries 
+	* _Exercise: Chemical space_  
+
+4. **Materials Representations**
 	* Data sources and formats
 	* Crystal representations 
 		* Compositional 
 		* Structural
 		* Graphs   
-	* _Exercise: Chemical space_  
+	* _Exercise: Chemical space revisited_  
 
 5. **Classical Learning**
 	* _k_-nearest neighbours
@@ -48,12 +44,17 @@
 	* Training and testing 
 	* _Exercise: Crystal hardness revisited_ 
 
-8. **Recent Advances in AI** 
+8. **Automated Discovery** 
 	* Large language models 
 	* Closed-loop materials discovery  
 	* _Exercise: Closed-loop optimisation_ 
 
-9. and 10. **Research Challenge**
-	* Ethics
-    * Assignment 
-	* Teamwork
+9. **Large-Language Models** 
+	* Large language models 
+	* Closed-loop materials discovery  
+	* _Exercise: Research challenge_ 
+	
+10. **Recent Advances in AI** 
+	* Guest lecture  
+	* _Exercise: Research challenge_ 
+	
