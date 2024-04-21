@@ -41,6 +41,8 @@ There is a vibrant community of machine learning developers and open source pack
 
 * [Dive into Deep Learning](https://d2l.ai/index.html)
 
+* [Geometric Deep Learning](https://geometricdeeplearning.com/book)
+
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book)
 
 * [Machine Learning in Materials Science](https://pubs.acs.org/doi/10.1021/acsinfocus.7e5033)
