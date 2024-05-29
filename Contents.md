@@ -18,12 +18,10 @@
 	* API queries 
 	* _Exercise: Chemical space_  
 
-4. **Materials Representations**
-	* Data sources and formats
-	* Crystal representations 
-		* Compositional 
-		* Structural
-		* Graphs   
+4. **Crystal Representations**
+	* Compositional 
+	* Structural
+	* Graphs   
 	* _Exercise: Chemical space II_  
 
 5. **Classical Learning**
@@ -55,7 +53,7 @@
 	* From latent space to diffusion
 	* _Exercise: Research challenge_ 
 	
-10. **Recent Advances in AI** 
+10. **Recent Advances** 
 	* Guest lecture  
 	* _Exercise: Research challenge_ 
 	

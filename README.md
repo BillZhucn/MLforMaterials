@@ -36,4 +36,4 @@ then enter the repository and run
 
 ## Acknowledgements
 
-This course was developed by Aron Walsh with the assistance of [Anthony Onwuli](https://github.com/AntObi), [Zhenzhu Li](https://github.com/lizhenzhupearl). Thanks to [Calysta Tesiman](https://github.com/CalystaT) for testing the first draft of the Jupyter notebooks.
+This module was developed by Aron Walsh with the assistance of [Anthony Onwuli](https://github.com/AntObi) and [Zhenzhu Li](https://github.com/lizhenzhupearl).

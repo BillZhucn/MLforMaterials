@@ -1,6 +1,6 @@
 # Resources
 
-There is a vibrant community of machine learning developers and open source packages for scientific research. Many of the links below have provided inspiration or borrowed content for this course.
+There is a vibrant community of machine learning developers and open-source packages for scientific research. Many of the links below have provided inspiration or borrowed content for this module.
 
 ![](./images/ml-python.png)
 (Image by [John Kitchen](https://kitchingroup.cheme.cmu.edu))
