@@ -1,6 +1,6 @@
 # Resources
 
-There is a vibrant community of machine learning developers and open source packages for scientific research. Many of the links below have provided inspiration or borrowed content for this course.
+There is a vibrant community of machine learning developers and open-source packages for scientific research. Many of the links below have provided inspiration or borrowed content for this module.
 
 ![](./images/ml-python.png)
 (Image by [John Kitchen](https://kitchingroup.cheme.cmu.edu))
@@ -40,6 +40,8 @@ There is a vibrant community of machine learning developers and open source pack
 * [Deep Learning for Molecules and Materials](https://dmol.pub)
 
 * [Dive into Deep Learning](https://d2l.ai/index.html)
+
+* [Geometric Deep Learning](https://geometricdeeplearning.com/book)
 
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book)
 

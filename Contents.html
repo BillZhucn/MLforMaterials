@@ -184,14 +184,6 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Notebooks</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Lecture1.html">1. Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture2.html">2. Materials Modelling</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture3.html">3. Machine Learning Basics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture4.html">4. Materials Data and Representations</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture5.html">5. Classical Learning</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture6.html">6. Artificial Neural Networks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture7.html">7. Building a Model from Scratch</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture8.html">8. Recent Advances in AI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Lecture9.html">9. Research Challenge</a></li>
 </ul>
 
     </div>
@@ -395,24 +387,13 @@ document.write(`
 <li><p><strong>Introduction</strong></p>
 <ul class="simple">
 <li><p>Overview</p></li>
-<li><p>Expectations</p></li>
-<li><p>Assessments</p></li>
+<li><p>Expectations and assessments</p></li>
 <li><p><em>Exercise: Getting started</em></p></li>
-</ul>
-</li>
-<li><p><strong>Materials Modelling</strong></p>
-<ul class="simple">
-<li><p>Analytical methods</p></li>
-<li><p>Numerical methods</p></li>
-<li><p>Statistical methods</p></li>
-<li><p>Automation and robotics</p></li>
-<li><p><em>Exercise: Crystal electrostatics</em></p></li>
 </ul>
 </li>
 <li><p><strong>Machine Learning Basics</strong></p>
 <ul class="simple">
 <li><p>Terminology</p></li>
-<li><p>Evaluation metrics</p></li>
 <li><p>Learning by example</p>
 <ul>
 <li><p>Supervised</p></li>
@@ -423,17 +404,19 @@ document.write(`
 <li><p><em>Exercise: Crystal hardness</em></p></li>
 </ul>
 </li>
-<li><p><strong>Materials Data and Representations</strong></p>
+<li><p><strong>Materials Data</strong></p>
 <ul class="simple">
 <li><p>Data sources and formats</p></li>
-<li><p>Crystal representations</p>
-<ul>
+<li><p>API queries</p></li>
+<li><p><em>Exercise: Chemical space</em></p></li>
+</ul>
+</li>
+<li><p><strong>Crystal Representations</strong></p>
+<ul class="simple">
 <li><p>Compositional</p></li>
 <li><p>Structural</p></li>
 <li><p>Graphs</p></li>
-</ul>
-</li>
-<li><p><em>Exercise: Chemical space</em></p></li>
+<li><p><em>Exercise: Chemical space II</em></p></li>
 </ul>
 </li>
 <li><p><strong>Classical Learning</strong></p>
@@ -457,21 +440,28 @@ document.write(`
 <li><p>Data preparation</p></li>
 <li><p>Model choice</p></li>
 <li><p>Training and testing</p></li>
-<li><p><em>Exercise: Crystal hardness revisited</em></p></li>
+<li><p><em>Exercise: Crystal hardness II</em></p></li>
 </ul>
 </li>
-<li><p><strong>Recent Advances in AI</strong></p>
+<li><p><strong>Accelerating Discovery</strong></p>
 <ul class="simple">
-<li><p>Large language models</p></li>
-<li><p>Closed-loop materials discovery</p></li>
+<li><p>Automated experiments</p></li>
+<li><p>Bayesian optimisation</p></li>
+<li><p>Reinforcement learning</p></li>
 <li><p><em>Exercise: Closed-loop optimisation</em></p></li>
 </ul>
 </li>
-<li><p>and 10. <strong>Research Challenge</strong></p>
+<li><p><strong>Generative Artificial Intelligence</strong></p>
 <ul class="simple">
-<li><p>Ethics</p></li>
-<li><p>Assignment</p></li>
-<li><p>Teamwork</p></li>
+<li><p>Large language models</p></li>
+<li><p>From latent space to diffusion</p></li>
+<li><p><em>Exercise: Research challenge</em></p></li>
+</ul>
+</li>
+<li><p><strong>Recent Advances</strong></p>
+<ul class="simple">
+<li><p>Guest lecture</p></li>
+<li><p><em>Exercise: Research challenge</em></p></li>
 </ul>
 </li>
 </ol>
@@ -482,7 +472,7 @@ document.write(`
         requestKernel: true,
         binderOptions: {
             repo: "aronwalsh/MLforMaterials",
-            ref: "main",
+            ref: "2025",
         },
         codeMirrorConfig: {
             theme: "abcdef",
