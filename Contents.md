@@ -16,7 +16,7 @@
 3. **Materials Data**
 	* Data sources and formats
 	* API queries 
-	* _Exercise: Chemical space_  
+	* _Exercise: Chemical space I_  
 
 4. **Crystal Representations**
 	* Compositional 
@@ -42,7 +42,7 @@
 	* Training and testing 
 	* _Exercise: Crystal hardness II_ 
 
-8. **Accelerating Discovery** 
+8. **Accelerated Discovery** 
 	* Automated experiments 
 	* Bayesian optimisation
 	* Reinforcement learning  
