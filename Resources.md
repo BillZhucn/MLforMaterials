@@ -27,7 +27,7 @@ There is a vibrant community of machine learning developers and open-source pack
 
 * Model tracking: [mlflow](https://mlflow.org); [wandb](https://wandb.ai)
 
-* Other lists: [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics); [Awesome Self Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs); [Atomistic ML](https://github.com/JuDFTteam/best-of-atomistic-machine-learning)
+* Other lists: [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics); [Awesome Self Driving Labs](https://github.com/AccelerationConsortium/awesome-self-driving-labs); [Awesome Generative AI](https://github.com/aishwaryanr/awesome-generative-ai-guide); [Atomistic ML](https://github.com/JuDFTteam/best-of-atomistic-machine-learning)
 
 ## Books
 
