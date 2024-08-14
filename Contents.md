@@ -16,13 +16,13 @@
 3. **Materials Data**
 	* Data sources and formats
 	* API queries 
-	* _Exercise: Chemical space I_  
+	* _Exercise: Data-driven thermoelectrics_  
 
 4. **Crystal Representations**
 	* Compositional 
 	* Structural
 	* Graphs   
-	* _Exercise: Chemical space II_  
+	* _Exercise: Crystal space_  
 
 5. **Classical Learning**
 	* _k_-nearest neighbours
