@@ -554,7 +554,7 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span> <span class="k">as</span> <span class="nn">m</span> <span class="c1"># import a math module</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">m</span> <span class="c1"># import a math module</span>
 <span class="n">m</span><span class="o">.</span><span class="n">pi</span>
 </pre></div>
 </div>
@@ -574,8 +574,8 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Imports</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>  <span class="c1"># Plotting</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  <span class="c1"># Numerical operations</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>  <span class="c1"># Plotting</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>  <span class="c1"># Numerical operations</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
 <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.001</span><span class="p">)</span> <span class="c1"># x = 0 to 10 in steps of 0.001</span>
@@ -596,7 +596,7 @@ You need to plot x vs y. Fix the plot command to (x,y).
 <p>In this module, we’ll make use of <a class="reference external" href="https://pandas.pydata.org">Pandas</a> to process input and output data for our machine learning models.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>  <span class="c1"># Data manipulation using DataFrames</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>  <span class="c1"># Data manipulation using DataFrames</span>
 
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span> <span class="c1"># This instantiates an empty pandas DataFrame</span>
 
@@ -682,14 +682,14 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 <p>Let’s write a function for it, which will take advantage of the wonderful <a class="reference external" href="https://numpy.org">NumPy</a> package. It also uses the <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/constants.html#physical-constants">physical constants</a> in scipy, and explains the function with a <a class="reference external" href="https://en.wikipedia.org/wiki/Docstring">docstring</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">scipy.constants</span> <span class="kn">import</span> <span class="n">physical_constants</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.constants</span><span class="w"> </span><span class="kn">import</span> <span class="n">physical_constants</span>
 
 <span class="c1"># Define constants</span>
 <span class="n">k_B</span> <span class="o">=</span> <span class="n">physical_constants</span><span class="p">[</span><span class="s1">&#39;Boltzmann constant in eV/K&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 
 <span class="c1"># Arrhenius function</span>
-<span class="k">def</span> <span class="nf">arrhenius</span><span class="p">(</span><span class="n">activation_energy</span><span class="p">,</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">D0</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">arrhenius</span><span class="p">(</span><span class="n">activation_energy</span><span class="p">,</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">D0</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Calculates the rate using the Arrhenius equation.</span>
 <span class="sd">    </span>
@@ -720,7 +720,7 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 <p>Now let’s take advantage of the function to make a plot. We will use the numpy function <code class="docutils literal notranslate"><span class="pre">linspace</span></code>, which is documented over <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.linspace.html">here</a>. It simply generates 100 numbers evenly spaced between 100 and 1000 to represent the temperature range.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
 
 <span class="c1"># Pre-exponential term in cm^2/s</span>
 <span class="n">D0</span> <span class="o">=</span> <span class="mf">0.5</span>
@@ -804,8 +804,8 @@ Start the temperature range from 100 instead of 0 K.
 <p>The last technique to picked up in this class is data fitting. Later in the module, this will be expanded to more complex functions in high dimensions, but we’ll start with linear regression in just 2D.  There is no need to code this by hand as we can use a <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">function</a> in the machine learning package <a class="reference external" href="https://scikit-learn.org">scikit-learn</a>. The real power of Python is the quality and quantity of available libraries such as this one.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 
 <span class="n">num_points</span> <span class="o">=</span>  <span class="c1"># Number of data points to generate</span>
 
@@ -828,8 +828,8 @@ Start the temperature range from 100 instead of 0 K.
 Again you need to choose the number of points. 50 should be fine, but you have the power to decide.
 </details><div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
-<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">r2_score</span><span class="p">,</span> <span class="n">mean_squared_error</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.linear_model</span><span class="w"> </span><span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sklearn.metrics</span><span class="w"> </span><span class="kn">import</span> <span class="n">r2_score</span><span class="p">,</span> <span class="n">mean_squared_error</span>
 
 <span class="c1"># Perform linear regression</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;X&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>  <span class="c1"># Reshape X for compatibility with sklearn</span>
@@ -886,7 +886,7 @@ Your model is not called `model2`. Try changing the name.
 <h3><span class="section-number">1.4.1. </span>Your details<a class="headerlink" href="#your-details" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 
 <span class="c1"># Insert your values</span>
 <span class="n">Name</span> <span class="o">=</span> <span class="s2">&quot;No Name&quot;</span> <span class="c1"># Replace with your name</span>
