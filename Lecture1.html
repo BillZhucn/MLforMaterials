@@ -498,36 +498,51 @@ document.write(`
 <section id="python">
 <h3><span class="section-number">1.1.1. </span>Python<a class="headerlink" href="#python" title="Permalink to this heading">#</a></h3>
 <p>A working knowledge of the <a class="reference external" href="https://www.python.org">Python</a> programming language is assumed for this course. If you are rusty, Chapters 1-4 of <a class="reference external" href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Datacamp</a> cover the base concepts, as do many other online resources including Imperial’s <a class="reference external" href="https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/python-for-researchers">Introduction to Python</a> course.</p>
-<p>Choose your degree programme:</p>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">MEng</label>
+<style>
+  .question-group {
+    margin-bottom: 15px; /* Adds space between question sections */
+  }
+
+  .question-group div {
+    margin-bottom: 5px; /* Adds space between individual options */
+  }
+</style>
+<div class="question-group">
+  <p>Choose your degree programme:</p>
+  <div>
+    <input type="checkbox" name="uchk" id="meng">
+    <label for="meng">MEng</label>
+  </div>
+  <div>
+    <input type="checkbox" name="uchk" id="msc">
+    <label for="msc">MSc</label>
+  </div>
 </div>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">MSc</label>
+<div class="question-group">
+  <p>If MSc, have you completed the introductory Python course:</p>
+  <div>
+    <input type="checkbox" name="uchk" id="yes">
+    <label for="yes">Yes</label>
+  </div>
+  <div>
+    <input type="checkbox" name="uchk" id="no">
+    <label for="no">No</label>
+  </div>
 </div>
-<p>If MSc, have your completed the introductory Python course:</p>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">Yes</label>
-</div>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">No</label>
-</div>
-<p>Rate your current Python level:</p>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">Beginner</label>
-</div>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">Intermediate</label>
-</div>
-<div>
-  <input type="checkbox" name="uchk">
-  <label for="uchk">Advanced</label>
+<div class="question-group">
+  <p>Rate your current Python level:</p>
+  <div>
+    <input type="checkbox" name="uchk" id="beginner">
+    <label for="beginner">Beginner</label>
+  </div>
+  <div>
+    <input type="checkbox" name="uchk" id="intermediate">
+    <label for="intermediate">Intermediate</label>
+  </div>
+  <div>
+    <input type="checkbox" name="uchk" id="advanced">
+    <label for="advanced">Advanced</label>
+  </div>
 </div>
 </section>
 <section id="markdown">
