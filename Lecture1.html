@@ -468,7 +468,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">1.4. 🚨 Exercise 1</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-details">1.4.1. Your details</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tasks">1.4.2. Tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#problem">1.4.2. Problem</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dive-deeper">1.5. 🌊 Dive deeper</a></li>
@@ -485,7 +485,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="introduction">
 <h1><span class="section-number">1. </span>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h1>
-<div style="background-color: #ffd1dc; border-left: 6px solid #ccc; margin: 20px; padding: 15px;">
+<div style="background-color: #f8d7da; border-left: 6px solid #ccc; margin: 20px; padding: 15px;">
     <strong>💡 Ada Lovelace:</strong> The more I study, the more insatiable do I feel my genius for it to be.
 </div><iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/3be55cc221ec446eb79c9b2a77fe695e" title="Machine Learning for Materials (Lecture 1)" allowfullscreen="true" style="border: 0px; background-clip: padding-box; background-color: rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" data-ratio="1.3333333333333333"></iframe>
 <p><a class="reference external" href="https://speakerdeck.com/aronwalsh/machine-learning-for-materials-lecture-1">Lecture slides</a></p>
@@ -497,7 +497,38 @@ document.write(`
 <p>There are a few components to be aware of:</p>
 <section id="python">
 <h3><span class="section-number">1.1.1. </span>Python<a class="headerlink" href="#python" title="Permalink to this heading">#</a></h3>
-<p>A working knowledge of the <a class="reference external" href="https://www.python.org">Python</a> programming language is assumed for this course. If you are rusty, Chapters 1-4 of <a class="reference external" href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Datacamp</a> cover the base concepts, as do many other online resources including Imperial’s <a class="reference external" href="https://www.imperial.ac.uk/students/academic-support/graduate-school/students/doctoral/professional-development/research-computing-data-science/courses/intro-to-python">Introduction to Python</a> course.</p>
+<p>A working knowledge of the <a class="reference external" href="https://www.python.org">Python</a> programming language is assumed for this course. If you are rusty, Chapters 1-4 of <a class="reference external" href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Datacamp</a> cover the base concepts, as do many other online resources including Imperial’s <a class="reference external" href="https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/python-for-researchers">Introduction to Python</a> course.</p>
+<p>Choose your degree programme:</p>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">MEng</label>
+</div>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">MSc</label>
+</div>
+<p>If MSc, have your completed the introductory Python course:</p>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">Yes</label>
+</div>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">No</label>
+</div>
+<p>Rate your current Python level:</p>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">Beginner</label>
+</div>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">Intermediate</label>
+</div>
+<div>
+  <input type="checkbox" name="uchk">
+  <label for="uchk">Advanced</label>
+</div>
 </section>
 <section id="markdown">
 <h3><span class="section-number">1.1.2. </span>Markdown<a class="headerlink" href="#markdown" title="Permalink to this heading">#</a></h3>
@@ -514,7 +545,7 @@ document.write(`
 </section>
 <section id="live-coding">
 <h3><span class="section-number">1.1.4. </span>Live coding<a class="headerlink" href="#live-coding" title="Permalink to this heading">#</a></h3>
-<p>The weekly notebooks are designed to be run online directly in your browser. You can activate the server by clicking the rocket icon on the top right and selecting <code class="docutils literal notranslate"><span class="pre">Live</span> <span class="pre">Code</span></code>. There is an option to open in <a class="reference external" href="https://mybinder.org">Binder</a> or <a class="reference external" href="https://colab.research.google.com">Google Colab</a>, which you may prefer if you are an advanced user, but the formatting won’t be as nice. Those services will be used for the research challenge later in the course.  You can opt to install Python on your own computer with <a class="reference external" href="https://www.anaconda.com/products/distribution">Anaconda</a> and run the notebooks locally, but we do not offer support if things go wrong.</p>
+<p>The weekly notebooks are designed to be run online directly in your browser. You can activate the server by clicking the rocket icon on the top right and selecting <code class="docutils literal notranslate"><span class="pre">Live</span> <span class="pre">Code</span></code>. There is an option to open in <a class="reference external" href="https://mybinder.org">Binder</a> or <a class="reference external" href="https://colab.research.google.com">Google Colab</a>. Colab is more powerful, but the formatting won’t be as nice. You can opt to install Python on your own computer with <a class="reference external" href="https://www.anaconda.com/products/distribution">Anaconda</a> and run the notebooks locally, but we do not offer support if things go wrong.</p>
 </section>
 </section>
 <section id="analyse-data-with-code">
@@ -533,7 +564,7 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Beware of 妖精&quot;</span><span class="p">)</span> <span class="c1"># anything after &#39;#&#39; is a comment and ignored</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Beware of 小妖精&quot;</span><span class="p">)</span> <span class="c1"># anything after &#39;#&#39; is a comment and ignored</span>
 </pre></div>
 </div>
 </div>
@@ -659,7 +690,7 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 </section>
 <section id="link-an-image">
 <h3><span class="section-number">1.2.5. </span>Link an image<a class="headerlink" href="#link-an-image" title="Permalink to this heading">#</a></h3>
-<p>The syntax employed here is Markdown. It can be used in notebooks, is also popular on Github for documentation, and is even a fast way to take notes during lectures.</p>
+<p>The syntax employed here is Markdown. It can be used in notebooks, is popular on Github for documentation, and can even be a fast way to take notes during lectures.</p>
 <p><code class="docutils literal notranslate"><span class="pre">![](https://media.giphy.com/media/cxk3z6nMhpf7a/giphy.gif)</span></code></p>
 <p>which renders as</p>
 <p><img alt="" src="https://media.giphy.com/media/cxk3z6nMhpf7a/giphy.gif" /></p>
@@ -679,7 +710,7 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 <li><p><span class="math notranslate nohighlight">\(k_B\)</span> is the Boltzmann constant, and</p></li>
 <li><p><span class="math notranslate nohighlight">\(T\)</span> is the temperature.</p></li>
 </ul>
-<p>Let’s write a function for it, which will take advantage of the wonderful <a class="reference external" href="https://numpy.org">NumPy</a> package. It also uses the <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/constants.html#physical-constants">physical constants</a> in scipy, and explains the function with a <a class="reference external" href="https://en.wikipedia.org/wiki/Docstring">docstring</a>.</p>
+<p>Let’s write a function for it, which will take advantage of the wonderful <a class="reference external" href="https://numpy.org">NumPy</a> package. It also uses the <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/constants.html#physical-constants">physical constants</a> in <a class="reference external" href="https://scipy.org">SciPy</a>, and explains the function with a <a class="reference external" href="https://en.wikipedia.org/wiki/Docstring">docstring</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -702,22 +733,23 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 <span class="sd">    float: the rate of the reaction.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">any</span><span class="p">(</span><span class="n">temperature</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Temperature must be greater than 0 K.&quot;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Temperature must be greater than 0 K&quot;</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">D0</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">activation_energy</span> <span class="o">/</span> <span class="p">(</span><span class="n">k_B</span> <span class="o">*</span> <span class="n">temperature</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
 </div>
-<p>This function takes <code class="docutils literal notranslate"><span class="pre">activation_enery</span></code> (eV) and <code class="docutils literal notranslate"><span class="pre">temperature</span></code> (K) as inputs and returns the corresponding diffusion coefficient. Recall that the units of the exponential term have to cancel out, so <span class="math notranslate nohighlight">\(D_{ion}\)</span> takes the same units as <span class="math notranslate nohighlight">\(D_0\)</span>. Now let’s use it:</p>
+<p>This function takes <code class="docutils literal notranslate"><span class="pre">activation_energy</span></code> (eV) and <code class="docutils literal notranslate"><span class="pre">temperature</span></code> (K) as inputs and returns the corresponding diffusion coefficient. Recall that the units of the exponential term cancel out, so <span class="math notranslate nohighlight">\(D_{ion}\)</span> takes the same units as <span class="math notranslate nohighlight">\(D_0\)</span>. Now let’s use the function:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">arrhenius</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="c1"># Calls the function for Ea = 0.12 eV; T = 1000 K</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span> <span class="c1"># Call the function for Ea = 0.12 eV; T = 1000 K</span>
+<span class="n">arrhenius</span><span class="p">(</span><span class="mf">0.12</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> 
 </pre></div>
 </div>
 </div>
 </div>
 <p>This value tells us the likelihood that each attempt has of overcoming the thermodynamic barrier for ionic diffusion. Decrease the temperature to 100 K and see the difference.</p>
-<p>Now let’s take advantage of the function to make a plot. We will use the numpy function <code class="docutils literal notranslate"><span class="pre">linspace</span></code>, which is documented over <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.linspace.html">here</a>. It simply generates 100 numbers evenly spaced between 100 and 1000 to represent the temperature range.</p>
+<p>Now let’s take advantage of the function to make a plot. We will use the numpy function <code class="docutils literal notranslate"><span class="pre">linspace</span></code>, which is documented over <a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.linspace.html">here</a>. It is used here to generate 100 numbers evenly spaced between 100 and 5000 that represent the temperature range of our “experiments”.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
@@ -725,41 +757,11 @@ You need to tell `df.loc` what to look for. Put an element name in between the q
 <span class="c1"># Pre-exponential term in cm^2/s</span>
 <span class="n">D0</span> <span class="o">=</span> <span class="mf">0.5</span>
 
-<span class="c1"># Temperature range in K</span>
-<span class="n">T</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
-
-<span class="c1"># Example activation energy in eV</span>
-<span class="n">activation_energy</span> <span class="o">=</span> <span class="mf">0.83</span>
-
-<span class="c1"># Calculate rates</span>
-<span class="n">rates</span> <span class="o">=</span> <span class="n">arrhenius</span><span class="p">(</span><span class="n">activation_energy</span><span class="p">,</span> <span class="n">T</span><span class="p">,</span> <span class="n">D0</span><span class="p">)</span>
-
-<span class="c1"># Plotting</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">rates</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;Activation Energy = </span><span class="si">{</span><span class="n">activation_energy</span><span class="si">}</span><span class="s1"> eV&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature (K)&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$D_</span><span class="si">{ion}</span><span class="s1">$ (cm$^2$/s)&#39;</span><span class="p">)</span>  <span class="c1"># Adding units to y-axis</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Thermally Activated Transport&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<details>
-<summary> Code hint </summary>
-Start the temperature range from 100 instead of 0 K.
-</details><div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Pre-exponential term in cm2/s</span>
-<span class="n">D0</span> <span class="o">=</span> <span class="mf">0.5</span>
-
 <span class="c1"># Range of activation energies in eV</span>
-<span class="n">activation_energies</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span> <span class="c1"># Range from 0.1 to 1.0 eV in n steps</span>
+<span class="n">activation_energies</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c1"># Range from 0.1 to 0.8 eV in n steps</span>
 
 <span class="c1"># Temperature range in K</span>
-<span class="n">T</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">T</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">5000</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
 
 <span class="c1"># Calculate rates and plot curves</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> 
@@ -770,7 +772,7 @@ Start the temperature range from 100 instead of 0 K.
 
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Temperature (K)&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$D_</span><span class="si">{ion}</span><span class="s1">$ (cm$^2$/s)&#39;</span><span class="p">)</span> 
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Diffusion with varying activation energies&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Varying activation energy&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -780,8 +782,8 @@ Start the temperature range from 100 instead of 0 K.
 </div>
 <details>
 <summary> Code hint </summary>
-'np.linspace' requires three arguments (start, stop, number of points). 0 points won't work. Try changing it to 10.
-</details><p>To better visualise the trends, we can make an Arrhenius plot by plotting the logarithm of D versus the inverse temperature, 1/T.  We use 1000/T to give a nicer range on the <span class="math notranslate nohighlight">\(x\)</span>-axis.</p>
+'np.linspace' requires three arguments (start, stop, number of points). 0 points won't work. Try changing it to 5.
+</details><p>To better visualise the trends, we can make an Arrhenius plot by plotting the natural logarithm of <span class="math notranslate nohighlight">\(D\)</span> versus the inverse temperature, 1/T.  We use 1000/T to give a nicer range on the <span class="math notranslate nohighlight">\(x\)</span>-axis.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Plotting ln(R) vs 1000/T</span>
@@ -801,7 +803,7 @@ Start the temperature range from 100 instead of 0 K.
 </div>
 </div>
 </div>
-<p>The last technique to picked up in this class is data fitting. Later in the module, this will be expanded to more complex functions in high dimensions, but we’ll start with linear regression in just 2D.  There is no need to code this by hand as we can use a <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">function</a> in the machine learning package <a class="reference external" href="https://scikit-learn.org">scikit-learn</a>. The real power of Python is the quality and quantity of available libraries such as this one.</p>
+<p>The last technique to pick up in this class is data fitting. Later in the module, we will use more complex functions in high dimensions, but let’s start with linear regression. There is no need to code this by hand as we can use a <a class="reference external" href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">function</a> in the machine learning package <a class="reference external" href="https://scikit-learn.org">scikit-learn</a>. The real power of Python is the quality and quantity of available libraries such as this one.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
@@ -858,7 +860,7 @@ Again you need to choose the number of points. 50 should be fine, but you have t
 <p>There are a number of useful analysis tools built into <code class="docutils literal notranslate"><span class="pre">sklearn</span></code>, which we can use to probe the model properties.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Print the model parameters and performance with enhanced formatting</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Print the model parameters and performance</span>
 <span class="k">try</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Slope: </span><span class="si">{</span><span class="n">model2</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>  <span class="c1"># Assuming model.coef_ might be an array for multidimensional X</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Intercept: </span><span class="si">{</span><span class="n">model2</span><span class="o">.</span><span class="n">intercept_</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
@@ -877,10 +879,8 @@ Your model is not called `model2`. Try changing the name.
 </section>
 <section id="exercise-1">
 <h2><span class="section-number">1.4. </span>🚨 Exercise 1<a class="headerlink" href="#exercise-1" title="Permalink to this heading">#</a></h2>
-<div class="note admonition">
-<p class="admonition-title">Coding exercises</p>
-<p>The exercises are designed to apply what you have learned with room for creativity. It is fine to discuss solutions with your classmates, but the actual code should not be directly copied.</p>
-<p>The completed notebooks are to be submitted at the end of class, but you can revist later, experiment with the code, and follow the further reading suggestions.</p>
+<div style="background-color: #dceefb; border-left: 6px solid #ccc; margin: 20px; padding: 15px; border-radius: 5px;">
+    <strong>💡 Coding exercises:</strong> The exercises are designed to apply what you have learned with room for creativity. It is fine to discuss solutions with your classmates, but the actual code should not be directly copied.
 </div>
 <section id="your-details">
 <h3><span class="section-number">1.4.1. </span>Your details<a class="headerlink" href="#your-details" title="Permalink to this heading">#</a></h3>
@@ -903,8 +903,23 @@ Your model is not called `model2`. Try changing the name.
 </div>
 </div>
 </section>
-<section id="tasks">
-<h3><span class="section-number">1.4.2. </span>Tasks<a class="headerlink" href="#tasks" title="Permalink to this heading">#</a></h3>
+<section id="problem">
+<h3><span class="section-number">1.4.2. </span>Problem<a class="headerlink" href="#problem" title="Permalink to this heading">#</a></h3>
+<p>Due to their importance in the electronics industry, the diffusion of atoms in semiconductors has been well studied for decades. Below is a set of data for impurity diffusion in crystalline Si [Source: <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-1-4684-0904-8_2">Casey and Pearson (1975)</a>]. It has been arranged into a DataFrame for your convenience.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;Impurity&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;Al&#39;</span><span class="p">,</span> <span class="s1">&#39;Ga&#39;</span><span class="p">,</span> <span class="s1">&#39;In&#39;</span><span class="p">,</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;As&#39;</span><span class="p">,</span> <span class="s1">&#39;Sb&#39;</span><span class="p">,</span> <span class="s1">&#39;Bi&#39;</span><span class="p">],</span>
+    <span class="s1">&#39;Mass&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">10.81</span><span class="p">,</span> <span class="mf">26.98</span><span class="p">,</span> <span class="mf">69.72</span><span class="p">,</span> <span class="mf">114.82</span><span class="p">,</span> <span class="mf">30.97</span><span class="p">,</span> <span class="mf">74.92</span><span class="p">,</span> <span class="mf">121.76</span><span class="p">,</span> <span class="mf">208.98</span><span class="p">],</span> <span class="c1"># atomic mass in g/mol</span>
+    <span class="s1">&#39;D0&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">5.1</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">,</span> <span class="mf">3.6</span><span class="p">,</span> <span class="mf">16.5</span><span class="p">,</span> <span class="mf">10.5</span><span class="p">,</span> <span class="mf">60.0</span><span class="p">,</span> <span class="mf">12.9</span><span class="p">,</span> <span class="mf">1.03E3</span><span class="p">],</span>  <span class="c1"># cm2/sec</span>
+    <span class="s1">&#39;Eact&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">3.70</span><span class="p">,</span> <span class="mf">3.47</span><span class="p">,</span> <span class="mf">3.51</span><span class="p">,</span> <span class="mf">3.91</span><span class="p">,</span> <span class="mf">3.69</span><span class="p">,</span> <span class="mf">4.20</span><span class="p">,</span> <span class="mf">3.98</span><span class="p">,</span> <span class="mf">4.63</span><span class="p">]</span>  <span class="c1"># eV</span>
+<span class="p">}</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Two tasks will be given in class.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Code block</span>
@@ -933,16 +948,14 @@ Your model is not called `model2`. Try changing the name.
 </div>
 </div>
 </div>
-<div class="note admonition">
-<p class="admonition-title">Submission</p>
-<p>When your notebook is complete, click on the download icon on the top right, select <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>, save the file and upload it to Blackboard. If you are using Google Colab, you have to File -&gt; Download and choose <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>.</p>
-</div>
-</section>
+<div style="background-color: #d4edda; border-left: 6px solid #ccc; margin: 20px; padding: 15px; border-radius: 5px;">
+    <strong>📓 Submission:</strong> When your notebook is complete, click on the download icon on the top right, select <code>.ipynb</code>. If you are using Google Colab, go to <em>File > Download</em> and choose <code>.ipynb</code>. The completed file should be uploaded to Blackboard under assignments for MATE70026.
+</div></section>
 </section>
 <section id="dive-deeper">
 <h2><span class="section-number">1.5. </span>🌊 Dive deeper<a class="headerlink" href="#dive-deeper" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p><em>Level 1:</em> Read Chapter 1 of <a class="reference external" href="https://github.com/jermwatt/machine_learning_refined#what-is-new-in-the-second-edition">Machine Learning Refined</a> for a complementary introduction to the field.</p></li>
+<li><p><em>Level 1:</em> Read Chapter 1 of <a class="reference external" href="https://github.com/neonwatty/machine_learning_refined">Machine Learning Refined</a> for a complementary introduction to the field.</p></li>
 <li><p><em>Level 2:</em> Taylor Sparks has a collection of video lectures on <a class="reference external" href="https://www.youtube.com/watch?v=tn1wpfpLx6Y&amp;list=PLL0SWcFqypCmkHClksnGlab3wglEVMqNN&amp;index=2">Python for Materials Engineers</a>.</p></li>
 <li><p><em>Level 3:</em> If you are a matplotlib pro user, try <a class="reference external" href="https://plotly.com/python">plotly</a> and <a class="reference external" href="https://docs.bokeh.org/en/2.4.1/docs/gallery.html">bokeh</a> for interactive visualisations.</p></li>
 </ul>
@@ -1024,7 +1037,7 @@ Your model is not called `model2`. Try changing the name.
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercise-1">1.4. 🚨 Exercise 1</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-details">1.4.1. Your details</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tasks">1.4.2. Tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#problem">1.4.2. Problem</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dive-deeper">1.5. 🌊 Dive deeper</a></li>
@@ -1052,7 +1065,7 @@ By Aron Walsh
 
   <p class="copyright">
     
-      © Copyright 2024.
+      © Copyright 2025.
       <br/>
     
   </p>
