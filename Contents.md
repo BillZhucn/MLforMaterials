@@ -22,7 +22,7 @@
 	* Compositional 
 	* Structural
 	* Graphs   
-	* _Exercise: Crystal space_  
+	* _Exercise: Navigating crystal space_  
 
 5. **Classical Learning**
 	* _k_-nearest neighbours
